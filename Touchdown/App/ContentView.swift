@@ -19,14 +19,21 @@ struct ContentView: View {
                     .padding(.horizontal, 15)
                     .padding(.bottom)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-                    
+                
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
-                Spacer()
-                
-                FooterView()
-                    .padding(.horizontal)
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 0) {
+                        
+                        FeaturedTabView()
+                            .padding(.vertical, 20)
+                            .frame(width: 300, height: 200, alignment: .center)
+                            
+                        FooterView()
+                            .padding(.horizontal)
+                    } // : VStack
+                } // : ScrollView
             }// : VStack
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         }// : ZStack
