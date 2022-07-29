@@ -29,6 +29,10 @@ struct ContentView: View {
                         FeaturedTabView()
                             .padding(.vertical, 20)
                             .frame(width: 300, height: 200, alignment: .center)
+                        
+                        CategoryGridView()
+                        
+                        TitleView(title: "Helmet")
                             
                         FooterView()
                             .padding(.horizontal)
