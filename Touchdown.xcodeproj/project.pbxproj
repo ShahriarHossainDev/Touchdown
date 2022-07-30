@@ -14,6 +14,7 @@
 		FA067F3628954BC500593FF6 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA067F3528954BC500593FF6 /* BrandModel.swift */; };
 		FA067F3828954C3100593FF6 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA067F3728954C3100593FF6 /* BrandItemView.swift */; };
 		FA067F3A28954D3E00593FF6 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA067F3928954D3E00593FF6 /* BrandGridView.swift */; };
+		FA067F3C28959AD400593FF6 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA067F3B28959AD400593FF6 /* ProductDetailView.swift */; };
 		FA20554F2886A5ED0075258A /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20554E2886A5ED0075258A /* TouchdownApp.swift */; };
 		FA2055512886A5ED0075258A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2055502886A5ED0075258A /* ContentView.swift */; };
 		FA2055532886A5EF0075258A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2055522886A5EF0075258A /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		FA067F3528954BC500593FF6 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		FA067F3728954C3100593FF6 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		FA067F3928954D3E00593FF6 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		FA067F3B28959AD400593FF6 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		FA20554B2886A5ED0075258A /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA20554E2886A5ED0075258A /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		FA2055502886A5ED0075258A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				FA20554E2886A5ED0075258A /* TouchdownApp.swift */,
 				FA2055502886A5ED0075258A /* ContentView.swift */,
+				FA067F3B28959AD400593FF6 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				FA067F342895479000593FF6 /* ProductItemView.swift in Sources */,
 				FA067F3A28954D3E00593FF6 /* BrandGridView.swift in Sources */,
 				FA20554F2886A5ED0075258A /* TouchdownApp.swift in Sources */,
+				FA067F3C28959AD400593FF6 /* ProductDetailView.swift in Sources */,
 				FA20556E2886A9E30075258A /* Constant.swift in Sources */,
 				FA20558328891E3D0075258A /* CategoryGridView.swift in Sources */,
 				FA20557F28890C1D0075258A /* CategoryModel.swift in Sources */,
