@@ -33,6 +33,13 @@ struct ContentView: View {
                         CategoryGridView()
                         
                         TitleView(title: "Helmet")
+                        
+                        LazyVGrid(columns: gridLayout, spacing: 13) {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            } // loop
+                        } // Grid
+                        .padding(15)
                             
                         FooterView()
                             .padding(.horizontal)
