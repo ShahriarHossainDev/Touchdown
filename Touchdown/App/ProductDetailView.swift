@@ -14,13 +14,18 @@ struct ProductDetailView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             // NavBar
-            
+            NavigationBarDetailView()
+                .padding(.horizontal)
+                //.padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                .padding(.top, UIApplication.shared.connectedScenes.flatMap { ($0 as? UIWindowScene)?.windows ?? [] }.first { $0.isKeyWindow }?.safeAreaInsets.top)
             
             // Header
-            Text(sampleProduct.name)
+            HeaderDetailView()
+                .padding(.horizontal)
             
             // Detail top part
-            
+            TopPartDetailView()
+                .padding(.horizontal)
             
             // Detail bottom part
             
@@ -36,8 +41,11 @@ struct ProductDetailView: View {
             
             // add to cart
             
+            Spacer()
 
         } // VStack
+        .ignoresSafeArea(.all, edges: .all)
+        .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue).ignoresSafeArea(.all, edges: .all))
     }
 }
 
