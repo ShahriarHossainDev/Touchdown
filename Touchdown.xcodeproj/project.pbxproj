@@ -108,6 +108,7 @@
 		FA2055422886A5ED0075258A = {
 			isa = PBXGroup;
 			children = (
+				FA5CCFA9289A64F20087EC06 /* README.md */,
 				FA20554D2886A5ED0075258A /* Touchdown */,
 				FA20554C2886A5ED0075258A /* Products */,
 			);
@@ -134,7 +135,6 @@
 				FA2055522886A5EF0075258A /* Assets.xcassets */,
 				FA2055652886A7A40075258A /* Info.plist */,
 				FA2055542886A5EF0075258A /* Preview Content */,
-				FA5CCFA9289A64F20087EC06 /* README.md */,
 			);
 			path = Touchdown;
 			sourceTree = "<group>";
