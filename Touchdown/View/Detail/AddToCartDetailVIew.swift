@@ -12,7 +12,9 @@ struct AddToCartDetailVIew: View {
     @EnvironmentObject var shop: Shop
     // MARK: - Body
     var body: some View {
-        Button(action: {}) {
+        Button(action: {
+            feedback.impactOccurred()
+        }) {
             Spacer()
             Text("Add to Cart".uppercased())
                 .font(.system(.title2, design: .rounded))
