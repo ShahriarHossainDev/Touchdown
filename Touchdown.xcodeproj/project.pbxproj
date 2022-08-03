@@ -41,6 +41,7 @@
 		FA20558328891E3D0075258A /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20558228891E3D0075258A /* CategoryGridView.swift */; };
 		FA5CCF9B289A57390087EC06 /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CCF9A289A57390087EC06 /* QuantityFavouriteDetailView.swift */; };
 		FA5CCF9D289A593B0087EC06 /* AddToCartDetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CCF9C289A593B0087EC06 /* AddToCartDetailVIew.swift */; };
+		FA5CCF9F289A5AEF0087EC06 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CCF9E289A5AEF0087EC06 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		FA20558228891E3D0075258A /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		FA5CCF9A289A57390087EC06 /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 		FA5CCF9C289A593B0087EC06 /* AddToCartDetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailVIew.swift; sourceTree = "<group>"; };
+		FA5CCF9E289A5AEF0087EC06 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				FA20556D2886A9E30075258A /* Constant.swift */,
 				FA067F432897B6D900593FF6 /* CustomShape.swift */,
+				FA5CCF9E289A5AEF0087EC06 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				FA20557D28883F370075258A /* FeaturedTabView.swift in Sources */,
 				FA067F442897B6D900593FF6 /* CustomShape.swift in Sources */,
 				FA2055762887F3C90075258A /* PlayerModel.swift in Sources */,
+				FA5CCF9F289A5AEF0087EC06 /* Shop.swift in Sources */,
 				FA067F3628954BC500593FF6 /* BrandModel.swift in Sources */,
 				FA067F302894540800593FF6 /* TitleView.swift in Sources */,
 				FA5CCF9B289A57390087EC06 /* QuantityFavouriteDetailView.swift in Sources */,
